@@ -46,3 +46,13 @@ print(queue.size());
 print(queue.peek());
 #print(queue.dequeue());
 print(queue.size());
+
+class QueueLinkedList:
+    def __init__(self):
+        self.size = 0;
+        self.first = None;
+        self.last = None;
+        self._list = LinkedList();
+        
+    
+        
